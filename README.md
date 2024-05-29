@@ -1,4 +1,4 @@
-# Onebloced
+# Oneblocked
 Onebloced - Easy to customize oneblock generator mod. 
 Using this mod you can easily add your stages of blocks and mobs that will spawn. 
 You can specify the order of stages and their length. </br>
