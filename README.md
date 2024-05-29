@@ -71,6 +71,7 @@ This is a list of blocks that will be encountered at this stage. It must be in t
 The block element contains the entry field and chance. entry is the id of the block, which must be in the format mod_id:block_id. chance is the weight of this block.
 If one block has a weight of 20 and another has a weight of 180. The chances will be 10%/90%. </br>
 Example block list:
+```json
 {
   "block_list": [
     {
@@ -82,6 +83,7 @@ Example block list:
       "chance": "50"
   ]
 }
+```
 # Mob list
 This is the list of mobs that will be able to appear at this stage. It works the same way as the block list. Except that there is an entry called void. This is used when the block should not summon any mobs.
 # A small example with 2 stages
