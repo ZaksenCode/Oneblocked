@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "hold_block": 0
+      },
+      "model": "oneblocked:item/oneblock_generator_mover_empty"
+    },
+    {
+      "predicate": {
+        "hold_block": 1
+      },
+      "model": "oneblocked:item/oneblock_generator_mover_full"
+    }
+  ]
+}

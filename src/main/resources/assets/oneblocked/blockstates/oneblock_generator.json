@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "oneblocked:block/oneblock_generator" }
+  }
+}

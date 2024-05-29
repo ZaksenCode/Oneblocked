@@ -1,0 +1,33 @@
+{
+  "emi.category.oneblocked.oneblock_generator": "Oneblock generator",
+
+  "block.oneblocked.oneblock_generator": "Oneblock generator",
+  "item.oneblocked.oneblock_generator_mover": "Generator mover",
+  "item.oneblocked.oneblock_generator_remover": "Generator remover",
+  "item.oneblocked.oneblock_generator_configurator": "Generator configurator",
+  "item.oneblocked.oneblock_generator_analyzer": "Generator analyzer",
+
+  "tooltip.oneblocked.oneblock_mover.empty": "§7Not contains generator",
+  "tooltip.oneblocked.oneblock_mover.blocks_broken": "Blocks broken: %s",
+  "tooltip.oneblocked.oneblock_mover.max_blocks_broken": "Max blocks broken: %s",
+  "tooltip.oneblocked.oneblock_mover.total_blocks_broken": "Total blocks broken: %s",
+  "tooltip.oneblocked.oneblock_mover.count_blocks": "Is count blocks: %s",
+  "tooltip.oneblocked.oneblock_mover.stage": "Стадия: '%s'",
+
+  "screen.oneblocked.oneblock_configurator.screen": "",
+
+  "screen.oneblocked.oneblock_analyzer.screen": "",
+  "screen.oneblocked.oneblock_analyzer.screen.title": "Oneblock generator",
+  "screen.oneblocked.oneblock_analyzer.screen.blocks_broken": "Blocks broken: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.max_blocks_broken": "Max blocks broken: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.total_blocks_broken": "Total blocks broken: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.count_blocks": "Is count blocks: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.stage": "Current stage: %s",
+
+  "lang.oneblocked.yes": "Yes",
+  "lang.oneblocked.no": "No",
+  "lang.oneblocked.blocks": "Blocks",
+
+  "lang.oneblocked.count_blocks": "Keep a block count",
+  "lang.oneblocked.not_count_blocks": "Do not keep a block count"
+}

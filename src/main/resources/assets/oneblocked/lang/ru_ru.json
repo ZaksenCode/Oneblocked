@@ -1,0 +1,33 @@
+{
+  "emi.category.oneblocked.oneblock_generator": "Генератор одного блока",
+
+  "block.oneblocked.oneblock_generator": "Генератор одного блока",
+  "item.oneblocked.oneblock_generator_mover": "Перемещатель генератора",
+  "item.oneblocked.oneblock_generator_remover": "Уничтожитель генератора",
+  "item.oneblocked.oneblock_generator_configurator": "Настройщик генератора",
+  "item.oneblocked.oneblock_generator_analyzer": "Анализатор генератора",
+
+  "tooltip.oneblocked.oneblock_mover.empty": "§7Не содержит генератор",
+  "tooltip.oneblocked.oneblock_mover.blocks_broken": "Сломано блоков: %s",
+  "tooltip.oneblocked.oneblock_mover.max_blocks_broken": "Максимально сломано блоков: %s",
+  "tooltip.oneblocked.oneblock_mover.total_blocks_broken": "Всего сломано блоков: %s",
+  "tooltip.oneblocked.oneblock_mover.count_blocks": "Ведет подсчет блоков: %s",
+  "tooltip.oneblocked.oneblock_mover.stage": "Стадия: '%s'",
+
+  "screen.oneblocked.oneblock_configurator.screen": "",
+
+  "screen.oneblocked.oneblock_analyzer.screen": "",
+  "screen.oneblocked.oneblock_analyzer.screen.title": "Генератор одного блока",
+  "screen.oneblocked.oneblock_analyzer.screen.blocks_broken": "Сломано блоков: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.max_blocks_broken": "Максимально сломано блоков: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.total_blocks_broken": "Всего сломано блоков: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.count_blocks": "Ведет подсчет блоков: %s",
+  "screen.oneblocked.oneblock_analyzer.screen.stage": "Текущая стадия: %s",
+
+  "lang.oneblocked.yes": "Да",
+  "lang.oneblocked.no": "Нет",
+  "lang.oneblocked.blocks": "Блоков",
+
+  "lang.oneblocked.count_blocks": "Вести учет блоков",
+  "lang.oneblocked.not_count_blocks": "Не вести учет блоков"
+}

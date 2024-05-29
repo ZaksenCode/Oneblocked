@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "oneblocked",
+  "version": "${version}",
+  "name": "Oneblocked",
+  "description": "",
+  "authors": [
+    "Zaksen_"
+  ],
+  "contact": {
+    "repo": "https://github.com/zaksen/Oneblocked"
+  },
+  "license": "MIT",
+  "icon": "assets/oneblocked/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.zaksen.oneblocked.client.OneblockedClient"
+    ],
+    "main": [
+      "me.zaksen.oneblocked.Oneblocked"
+    ],
+    "emi": [
+      "me.zaksen.oneblocked.emi.OneblockedEmiPlugin"
+    ]
+  },
+  "mixins": [
+    "oneblocked.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
