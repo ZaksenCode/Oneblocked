@@ -3,7 +3,7 @@
   "id": "oneblocked",
   "version": "${version}",
   "name": "Oneblocked",
-  "description": "",
+  "description": "Easy to use oneblock generator",
   "authors": [
     "Zaksen_"
   ],
