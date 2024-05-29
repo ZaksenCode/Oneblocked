@@ -81,6 +81,7 @@ Example block list:
     {
       "entry": "minecraft:dirt",
       "chance": "50"
+    }
   ]
 }
 ```
