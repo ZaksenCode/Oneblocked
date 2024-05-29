@@ -88,3 +88,76 @@ Example block list:
 # Mob list
 This is the list of mobs that will be able to appear at this stage. It works the same way as the block list. Except that there is an entry called void. This is used when the block should not summon any mobs.
 # A small example with 2 stages
+Stage 1:
+```json
+{
+  "length": 50,
+  "order": 1,
+  "id": "stage_1",
+  "name": "stage.oneblocked.stage_1.name",
+  "block_list": [
+    {
+      "entry": "minecraft:grass_block",
+      "chance": 1.0
+    },
+    {
+      "entry": "minecraft:dirt",
+      "chance": 1.0
+    }
+  ],
+  "mob_list": [
+    {
+      "entry": "void",
+      "chance": 18.0
+    },
+    {
+      "entry": "minecraft:zombie",
+      "chance": 1.0
+    },
+    {
+      "entry": "minecraft:skeleton",
+      "chance": 1.0
+    }
+  ]
+}
+```
+Stage 2:
+```json
+{
+  "length": 100,
+  "order": 2,
+  "id": "stage_2",
+  "name": "stage.oneblocked.stage_2.name",
+  "block_list": [
+    {
+      "entry": "minecraft:stone",
+      "chance": 1.0
+    },
+    {
+      "entry": "minecraft:coal_ore",
+      "chance": 1.0
+    }
+  ],
+  "mob_list": [
+    {
+      "entry": "void",
+      "chance": 16.0
+    },
+    {
+      "entry": "minecraft:zombie",
+      "chance": 2.0
+    },
+    {
+      "entry": "minecraft:skeleton",
+      "chance": 2.0
+    }
+  ]
+}
+```
+Lang file:
+```json
+{
+  "stage.oneblocked.stage_1.name": "Plains",
+  "stage.oneblocked.stage_1.name": "Cave"
+}
+```
