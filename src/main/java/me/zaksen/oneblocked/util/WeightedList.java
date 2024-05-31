@@ -36,6 +36,11 @@ public class WeightedList<T> {
                 return entry.object;
             }
         }
+
+        if(entries.isEmpty()) {
+            return null;
+        }
+
         return entries.get(entries.size() - 1).object;
     }
 

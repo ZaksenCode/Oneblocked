@@ -100,11 +100,17 @@ public class OneblockGeneratorEntity extends BlockEntity {
     }
 
     private void placeStageBlock(World world, BlockPos pos, Stage stage) {
+        if(stage == null) {
+            return;
+        }
         Block newBlock = stage.getRandomBlock().getAsBlock();
         world.setBlockState(pos, newBlock.getDefaultState());
     }
 
     private void spawnStageMob(World world, BlockPos pos, Stage stage) {
+        if(stage == null) {
+            return;
+        }
         EntityType entityType = stage.getRandomMob().getAsEntityType();
         entityType.spawn((ServerWorld) world, pos.add(0, 1, 0), SpawnReason.NATURAL);
     }
