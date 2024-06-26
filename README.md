@@ -4,8 +4,6 @@ Using this mod you can easily add your stages of blocks and mobs that will spawn
 You can specify the order of stages and their length. </br>
 It's recommended to use the [EMI](https://modrinth.com/mod/emi) mod, to view the block stages that the game has loaded.
 
-If you have any questions, you can write into my [discord](https://discord.gg/3vyGkz4ZWM) channel support.
-
 # Custom stage
 Custom stage files should be putted into your datapack folder by path `data/pack_id/oneblock_stages`. </br>
 Here is exmaple of stage:
