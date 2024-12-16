@@ -156,6 +156,6 @@ Lang file:
 ```json
 {
   "stage.oneblocked.stage_1.name": "Plains",
-  "stage.oneblocked.stage_1.name": "Cave"
+  "stage.oneblocked.stage_2.name": "Cave"
 }
 ```
